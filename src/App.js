@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './component/Home/Home';
 import Navigation from './component/Home/Navigation';
+import UserEdit from './component/Home/UserEdit';
 // import Register from './component/Home/Register';
 // import Login from './component/Home/Login';
 const App = () => {
@@ -21,6 +22,11 @@ const App = () => {
                     <Route path="/home">
                         <Home />
                     </Route>
+
+                    <Route path="/edit/:id">
+                        <UserEdit />
+                    </Route>
+
                     {/* <Route path="/login">
                         <Login />
                     </Route>

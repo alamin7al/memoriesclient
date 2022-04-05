@@ -13,8 +13,13 @@
   }
 }
 
-*{
+* {
   font-family: 'Red Hat Mono', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#F1F5F8;
+  color:black;
 }
 
 .App-header {
@@ -36,18 +41,8 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
